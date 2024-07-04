@@ -1,0 +1,153 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+.text {
+  margin-left: 16px;
+  text-align: left;
+  color: blue;
+}
+
+.text-red {
+  color: red;
+}
+
+button {
+  margin-top: 20px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.user-card {
+  width: 350px;
+  height: 100%;
+  border: 1px solid purple;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  width: 200px;
+  height: 100%;
+  text-align: left;
+  font-size: 12.5px;
+  margin-left: 16px;
+  padding-bottom: 10px;
+  /* border: 1px solid purple; */
+}
+
+.user-number {
+  color: blueviolet;
+  font-weight: 600;
+}
+
+.firstplace {
+  border: 2px solid gold;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.secondplace {
+  border: 2px solid silver;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.thirdplace {
+  border: 2px solid SaddleBrown;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.winner-badge {
+  color: gold;
+}
+
+.winner-card {
+  border: 2px solid gold;
+}
+/* ------------- Podium ------------- */
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.podium {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 380px;
+  position: relative;
+}
+
+.podium-spot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100px;
+  /* margin: 0 10px; */
+}
+
+.first-place {
+  position: absolute;
+  bottom: 200px;
+  right: -50px;
+}
+
+.second-place {
+  position: absolute;
+  bottom: 100px;
+  left: -250px;
+  bottom: 0;
+}
+
+.third-place {
+  position: absolute;
+  right: -250px;
+  bottom: 0;
+}
+
+.rest-users {
+  margin-top: 20px;
+  width: 100%;
+}
